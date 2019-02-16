@@ -1,0 +1,12 @@
+Name,Age,Weight,Height,Income,Gender,Exp,Country
+Herbert,65,75,5.11,550000,M,30,US
+Mike,35,75,5.10,250000,M,5,AU
+Micheal,40,65,5.10,200000,M,10,US
+Judy,25,65,5.8,150000,F,1,UK
+Cathy,50,68,5.7,230000,F,20,UK
+Jason,32,78,6.2,350000,M,7,AU
+Lisa,50,56,5.5,200000,F,25,US
+Mark,40,70,5.11,350000,M,17,AU
+Ammy,28,50,5.6,220000,F,5,UK
+Jack,31,78,6.2,250000,M,7,US
+
