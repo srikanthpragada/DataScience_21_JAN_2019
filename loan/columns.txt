@@ -1,0 +1,14 @@
+Loan_ID              False
+Gender                True
+Married               True
+Dependents            True
+Education            False
+Self_Employed         True
+ApplicantIncome      False
+CoapplicantIncome    False
+LoanAmount            True
+Loan_Amount_Term      True
+Credit_History        True
+Property_Area        False
+Loan_Status          False
+dtype: bool
