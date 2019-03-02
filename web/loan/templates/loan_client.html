@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script>
+    var URL = "/loan/check/";
+    function check()
+    {
+     data = { "income" : $("#income").val(),
+              "cincome" : $("#cincome").val(),
+              "amount" : $("#amount").val(),
+              "term" : $("#term").val(),
+             };
+
+     $.getJSON(URL,data, showResult);
+    }
+
+    function showResult(result) {
+       $("#status").text("Loan Status = " + result.status);
+    }
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Loan Status Check</title>
+</head>
+<body>
+
+<h1>Loan Status Form</h1>
+Applicant Income<br/>
+<input type='text' id='income'/>
+<p/>
+CoApplicant Income <br/>
+<input type='text' id='cincome'/>
+<p/>
+Loan Amount<br/>
+<input type='text' id='amount'/>
+<p/>
+Loan Term  <br/>
+<input type='text' id='term'/>
+<p/>
+<button onclick="check()">Check Status</button>
+
+<h2 id="status"></h2>
+
+</body>
+</html>
+
